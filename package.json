@@ -1,0 +1,31 @@
+{
+  "name": "js-inter",
+  "version": "1.0.35",
+  "description": "Blockly for Node.js and Browser as CommonJS module",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "blockly",
+    "commonjs"
+  ],
+  "dependencies": {
+    "acorn": "^6.0.4",
+    "jsdom": "^11.3.0",
+    "xmlshim": "^0.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "gulp": "^3.8.11",
+    "gulp-insert": "^0.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha test/*_test.js"
+  },
+  "author": "Eugene Formanenko <mo4islona@gmail.com>",
+  "license": "ISC"
+}
